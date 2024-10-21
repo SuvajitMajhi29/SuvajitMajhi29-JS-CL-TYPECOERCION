@@ -42,6 +42,7 @@ a8.innerText = tripleEquals("5", "5");
  * @param b
  */
 function doubleEquals(a, b){
+    return a==b ;
     //    code here
 }
 
@@ -54,6 +55,7 @@ function doubleEquals(a, b){
  * @param b
  */
 function tripleEquals(a, b){
+    return a ===b ;
     //    code here
 }
 
@@ -92,6 +94,7 @@ a12.innerText = toBoolean(null) + 6;
   * @return String
   */
  function toString(a){
+    return String(a);
      //    code here
  }
 
@@ -101,6 +104,7 @@ a12.innerText = toBoolean(null) + 6;
   * @return Number
   */
  function toNumber(a){
+    return Number(a);
      //    code here
  }
 
@@ -110,6 +114,7 @@ a12.innerText = toBoolean(null) + 6;
   * @return Boolean
   */
  function toBoolean(a){
+    return Boolean(a);
      //    code here
  }
 
